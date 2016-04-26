@@ -68,6 +68,7 @@
     [path setUsesEvenOddFillRule:YES];
     return path;
 }
+//中间镂空
 - (UIBezierPath *)squarePath
 {
     UIBezierPath * squarePath = [UIBezierPath bezierPath];

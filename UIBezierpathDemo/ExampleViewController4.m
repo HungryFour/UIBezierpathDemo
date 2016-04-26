@@ -43,30 +43,26 @@
     return _segmentedControl;
 }
 
-
+//画二次贝塞尔曲线
 - (UIBezierPath *)twiceBezierPath
 {
     UIBezierPath *path = [[UIBezierPath alloc]init];
     [path moveToPoint:CGPointMake(200, 200)];
-    //画二次贝塞尔曲线
     //QuadCurveToPoint:终点
     //controlPoint:经过
     [path addQuadCurveToPoint:CGPointMake(50, 300) controlPoint:CGPointMake(50, 400)];
-
     return path;
 }
+//画三次贝塞尔曲线
 - (UIBezierPath *)cubicBezierPath
 {
-    //画三次贝塞尔曲线
     //CurveToPoint:终点
     //controlPoint1:经过
     //controlPoint2:经过
     UIBezierPath *path = [[UIBezierPath alloc]init];
     [path moveToPoint:CGPointMake(200, 200)];
     [path addCurveToPoint:CGPointMake(50, 300) controlPoint1:CGPointMake(100, 400) controlPoint2:CGPointMake(150, 300)];
-
     return path;
-
 }
 - (CAShapeLayer *)shapeLayer
 {
