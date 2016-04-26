@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202B7F0D1CCF070B000649A4 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B7F0C1CCF070B000649A4 /* ProgressView.m */; };
 		204D3B3C1CCDBC9E00EF1818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B3B1CCDBC9E00EF1818 /* main.m */; };
 		204D3B3F1CCDBC9E00EF1818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B3E1CCDBC9E00EF1818 /* AppDelegate.m */; };
 		204D3B421CCDBC9E00EF1818 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B411CCDBC9E00EF1818 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		204D3B4A1CCDBC9E00EF1818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204D3B481CCDBC9E00EF1818 /* LaunchScreen.storyboard */; };
 		204D3B551CCDBC9E00EF1818 /* UIBezierpathDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B541CCDBC9E00EF1818 /* UIBezierpathDemoTests.m */; };
 		204D3B601CCDBC9E00EF1818 /* UIBezierpathDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B5F1CCDBC9E00EF1818 /* UIBezierpathDemoUITests.m */; };
+		204D3B6F1CCDE6FB00EF1818 /* ExampleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B6E1CCDE6FB00EF1818 /* ExampleViewController1.m */; };
+		204D3B721CCDE70500EF1818 /* ExampleViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B711CCDE70500EF1818 /* ExampleViewController2.m */; };
+		204D3B751CCDE70C00EF1818 /* ExampleViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B741CCDE70C00EF1818 /* ExampleViewController3.m */; };
+		204D3B781CCDE71400EF1818 /* ExampleViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B771CCDE71400EF1818 /* ExampleViewController4.m */; };
+		204D3B7B1CCDE71E00EF1818 /* ExampleViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B7A1CCDE71E00EF1818 /* ExampleViewController5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202B7F0B1CCF070B000649A4 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		202B7F0C1CCF070B000649A4 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 		204D3B371CCDBC9E00EF1818 /* UIBezierpathDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBezierpathDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204D3B3B1CCDBC9E00EF1818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		204D3B3D1CCDBC9E00EF1818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,16 @@
 		204D3B5B1CCDBC9E00EF1818 /* UIBezierpathDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBezierpathDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204D3B5F1CCDBC9E00EF1818 /* UIBezierpathDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierpathDemoUITests.m; sourceTree = "<group>"; };
 		204D3B611CCDBC9E00EF1818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204D3B6D1CCDE6FB00EF1818 /* ExampleViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController1.h; sourceTree = "<group>"; };
+		204D3B6E1CCDE6FB00EF1818 /* ExampleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController1.m; sourceTree = "<group>"; };
+		204D3B701CCDE70500EF1818 /* ExampleViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController2.h; sourceTree = "<group>"; };
+		204D3B711CCDE70500EF1818 /* ExampleViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController2.m; sourceTree = "<group>"; };
+		204D3B731CCDE70C00EF1818 /* ExampleViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController3.h; sourceTree = "<group>"; };
+		204D3B741CCDE70C00EF1818 /* ExampleViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController3.m; sourceTree = "<group>"; };
+		204D3B761CCDE71400EF1818 /* ExampleViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController4.h; sourceTree = "<group>"; };
+		204D3B771CCDE71400EF1818 /* ExampleViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController4.m; sourceTree = "<group>"; };
+		204D3B791CCDE71E00EF1818 /* ExampleViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController5.h; sourceTree = "<group>"; };
+		204D3B7A1CCDE71E00EF1818 /* ExampleViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController5.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,18 @@
 				204D3B3E1CCDBC9E00EF1818 /* AppDelegate.m */,
 				204D3B401CCDBC9E00EF1818 /* ViewController.h */,
 				204D3B411CCDBC9E00EF1818 /* ViewController.m */,
+				204D3B6D1CCDE6FB00EF1818 /* ExampleViewController1.h */,
+				204D3B6E1CCDE6FB00EF1818 /* ExampleViewController1.m */,
+				204D3B701CCDE70500EF1818 /* ExampleViewController2.h */,
+				204D3B711CCDE70500EF1818 /* ExampleViewController2.m */,
+				204D3B731CCDE70C00EF1818 /* ExampleViewController3.h */,
+				204D3B741CCDE70C00EF1818 /* ExampleViewController3.m */,
+				204D3B761CCDE71400EF1818 /* ExampleViewController4.h */,
+				204D3B771CCDE71400EF1818 /* ExampleViewController4.m */,
+				204D3B791CCDE71E00EF1818 /* ExampleViewController5.h */,
+				204D3B7A1CCDE71E00EF1818 /* ExampleViewController5.m */,
+				202B7F0B1CCF070B000649A4 /* ProgressView.h */,
+				202B7F0C1CCF070B000649A4 /* ProgressView.m */,
 				204D3B431CCDBC9E00EF1818 /* Main.storyboard */,
 				204D3B461CCDBC9E00EF1818 /* Assets.xcassets */,
 				204D3B481CCDBC9E00EF1818 /* LaunchScreen.storyboard */,
@@ -271,8 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				204D3B421CCDBC9E00EF1818 /* ViewController.m in Sources */,
+				202B7F0D1CCF070B000649A4 /* ProgressView.m in Sources */,
+				204D3B751CCDE70C00EF1818 /* ExampleViewController3.m in Sources */,
 				204D3B3F1CCDBC9E00EF1818 /* AppDelegate.m in Sources */,
+				204D3B7B1CCDE71E00EF1818 /* ExampleViewController5.m in Sources */,
+				204D3B781CCDE71400EF1818 /* ExampleViewController4.m in Sources */,
+				204D3B721CCDE70500EF1818 /* ExampleViewController2.m in Sources */,
 				204D3B3C1CCDBC9E00EF1818 /* main.m in Sources */,
+				204D3B6F1CCDE6FB00EF1818 /* ExampleViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +534,7 @@
 				204D3B661CCDBC9E00EF1818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		204D3B671CCDBC9E00EF1818 /* Build configuration list for PBXNativeTarget "UIBezierpathDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +543,7 @@
 				204D3B691CCDBC9E00EF1818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		204D3B6A1CCDBC9E00EF1818 /* Build configuration list for PBXNativeTarget "UIBezierpathDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +552,7 @@
 				204D3B6C1CCDBC9E00EF1818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
