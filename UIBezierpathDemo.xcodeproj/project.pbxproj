@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		202B7F0D1CCF070B000649A4 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B7F0C1CCF070B000649A4 /* ProgressView.m */; };
+		202B7F111CCF7474000649A4 /* ExampleViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B7F101CCF7474000649A4 /* ExampleViewController6.m */; };
+		202B7F141CCF7C1F000649A4 /* AnimationWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B7F131CCF7C1F000649A4 /* AnimationWordView.m */; };
 		204D3B3C1CCDBC9E00EF1818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B3B1CCDBC9E00EF1818 /* main.m */; };
 		204D3B3F1CCDBC9E00EF1818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B3E1CCDBC9E00EF1818 /* AppDelegate.m */; };
 		204D3B421CCDBC9E00EF1818 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3B411CCDBC9E00EF1818 /* ViewController.m */; };
@@ -43,6 +45,10 @@
 /* Begin PBXFileReference section */
 		202B7F0B1CCF070B000649A4 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
 		202B7F0C1CCF070B000649A4 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		202B7F0F1CCF7474000649A4 /* ExampleViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController6.h; sourceTree = "<group>"; };
+		202B7F101CCF7474000649A4 /* ExampleViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController6.m; sourceTree = "<group>"; };
+		202B7F121CCF7C1F000649A4 /* AnimationWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationWordView.h; sourceTree = "<group>"; };
+		202B7F131CCF7C1F000649A4 /* AnimationWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWordView.m; sourceTree = "<group>"; };
 		204D3B371CCDBC9E00EF1818 /* UIBezierpathDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBezierpathDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204D3B3B1CCDBC9E00EF1818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		204D3B3D1CCDBC9E00EF1818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +141,10 @@
 				204D3B7A1CCDE71E00EF1818 /* ExampleViewController5.m */,
 				202B7F0B1CCF070B000649A4 /* ProgressView.h */,
 				202B7F0C1CCF070B000649A4 /* ProgressView.m */,
+				202B7F0F1CCF7474000649A4 /* ExampleViewController6.h */,
+				202B7F101CCF7474000649A4 /* ExampleViewController6.m */,
+				202B7F121CCF7C1F000649A4 /* AnimationWordView.h */,
+				202B7F131CCF7C1F000649A4 /* AnimationWordView.m */,
 				204D3B431CCDBC9E00EF1818 /* Main.storyboard */,
 				204D3B461CCDBC9E00EF1818 /* Assets.xcassets */,
 				204D3B481CCDBC9E00EF1818 /* LaunchScreen.storyboard */,
@@ -304,9 +314,11 @@
 				202B7F0D1CCF070B000649A4 /* ProgressView.m in Sources */,
 				204D3B751CCDE70C00EF1818 /* ExampleViewController3.m in Sources */,
 				204D3B3F1CCDBC9E00EF1818 /* AppDelegate.m in Sources */,
+				202B7F111CCF7474000649A4 /* ExampleViewController6.m in Sources */,
 				204D3B7B1CCDE71E00EF1818 /* ExampleViewController5.m in Sources */,
 				204D3B781CCDE71400EF1818 /* ExampleViewController4.m in Sources */,
 				204D3B721CCDE70500EF1818 /* ExampleViewController2.m in Sources */,
+				202B7F141CCF7C1F000649A4 /* AnimationWordView.m in Sources */,
 				204D3B3C1CCDBC9E00EF1818 /* main.m in Sources */,
 				204D3B6F1CCDE6FB00EF1818 /* ExampleViewController1.m in Sources */,
 			);

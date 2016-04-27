@@ -37,7 +37,8 @@
              @"优惠券样式(ExampleViewController2)",
              @"规则图形(ExampleViewController3)",
              @"画曲线(ExampleViewController4)",
-             @"进度条(ExampleViewController5)"];
+             @"进度条(ExampleViewController5)",
+             @"写字(ExampleViewController6)"];
 }
 - (NSArray *)vcArray
 {
@@ -45,7 +46,8 @@
              @"ExampleViewController2",
              @"ExampleViewController3",
              @"ExampleViewController4",
-             @"ExampleViewController5"];
+             @"ExampleViewController5",
+             @"ExampleViewController6"];
 }
 - (UITableView *)tableView
 {
