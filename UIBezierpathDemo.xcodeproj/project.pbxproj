@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2006A2EB1DF140AE00AED29F /* ProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2006A2EA1DF140AE00AED29F /* ProgressBarView.m */; };
+		200CE0C31DE68AB800D49F32 /* ExampleViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = 200CE0C21DE68AB800D49F32 /* ExampleViewController7.m */; };
+		200CE0C61DE68B9000D49F32 /* NestCircleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 200CE0C51DE68B9000D49F32 /* NestCircleProgressBar.m */; };
 		202B7F0D1CCF070B000649A4 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B7F0C1CCF070B000649A4 /* ProgressView.m */; };
 		202B7F111CCF7474000649A4 /* ExampleViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B7F101CCF7474000649A4 /* ExampleViewController6.m */; };
 		202B7F141CCF7C1F000649A4 /* AnimationWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202B7F131CCF7C1F000649A4 /* AnimationWordView.m */; };
@@ -43,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2006A2E91DF140AE00AED29F /* ProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBarView.h; sourceTree = "<group>"; };
+		2006A2EA1DF140AE00AED29F /* ProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressBarView.m; sourceTree = "<group>"; };
+		200CE0C11DE68AB800D49F32 /* ExampleViewController7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController7.h; sourceTree = "<group>"; };
+		200CE0C21DE68AB800D49F32 /* ExampleViewController7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController7.m; sourceTree = "<group>"; };
+		200CE0C41DE68B9000D49F32 /* NestCircleProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestCircleProgressBar.h; sourceTree = "<group>"; };
+		200CE0C51DE68B9000D49F32 /* NestCircleProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestCircleProgressBar.m; sourceTree = "<group>"; };
 		202B7F0B1CCF070B000649A4 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
 		202B7F0C1CCF070B000649A4 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 		202B7F0F1CCF7474000649A4 /* ExampleViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController6.h; sourceTree = "<group>"; };
@@ -145,6 +154,12 @@
 				202B7F101CCF7474000649A4 /* ExampleViewController6.m */,
 				202B7F121CCF7C1F000649A4 /* AnimationWordView.h */,
 				202B7F131CCF7C1F000649A4 /* AnimationWordView.m */,
+				200CE0C11DE68AB800D49F32 /* ExampleViewController7.h */,
+				200CE0C21DE68AB800D49F32 /* ExampleViewController7.m */,
+				200CE0C41DE68B9000D49F32 /* NestCircleProgressBar.h */,
+				200CE0C51DE68B9000D49F32 /* NestCircleProgressBar.m */,
+				2006A2E91DF140AE00AED29F /* ProgressBarView.h */,
+				2006A2EA1DF140AE00AED29F /* ProgressBarView.m */,
 				204D3B431CCDBC9E00EF1818 /* Main.storyboard */,
 				204D3B461CCDBC9E00EF1818 /* Assets.xcassets */,
 				204D3B481CCDBC9E00EF1818 /* LaunchScreen.storyboard */,
@@ -315,10 +330,13 @@
 				204D3B751CCDE70C00EF1818 /* ExampleViewController3.m in Sources */,
 				204D3B3F1CCDBC9E00EF1818 /* AppDelegate.m in Sources */,
 				202B7F111CCF7474000649A4 /* ExampleViewController6.m in Sources */,
+				2006A2EB1DF140AE00AED29F /* ProgressBarView.m in Sources */,
 				204D3B7B1CCDE71E00EF1818 /* ExampleViewController5.m in Sources */,
 				204D3B781CCDE71400EF1818 /* ExampleViewController4.m in Sources */,
 				204D3B721CCDE70500EF1818 /* ExampleViewController2.m in Sources */,
 				202B7F141CCF7C1F000649A4 /* AnimationWordView.m in Sources */,
+				200CE0C61DE68B9000D49F32 /* NestCircleProgressBar.m in Sources */,
+				200CE0C31DE68AB800D49F32 /* ExampleViewController7.m in Sources */,
 				204D3B3C1CCDBC9E00EF1818 /* main.m in Sources */,
 				204D3B6F1CCDE6FB00EF1818 /* ExampleViewController1.m in Sources */,
 			);

@@ -12,6 +12,8 @@
 #import "ExampleViewController3.h"
 #import "ExampleViewController4.h"
 #import "ExampleViewController5.h"
+#import "ExampleViewController6.h"
+#import "ExampleViewController7.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -38,7 +40,8 @@
              @"规则图形(ExampleViewController3)",
              @"画曲线(ExampleViewController4)",
              @"进度条(ExampleViewController5)",
-             @"写字(ExampleViewController6)"];
+             @"写字(ExampleViewController6)",
+             @"嵌套进度条(ExampleViewController7)"];
 }
 - (NSArray *)vcArray
 {
@@ -47,7 +50,8 @@
              @"ExampleViewController3",
              @"ExampleViewController4",
              @"ExampleViewController5",
-             @"ExampleViewController6"];
+             @"ExampleViewController6",
+             @"ExampleViewController7"];
 }
 - (UITableView *)tableView
 {

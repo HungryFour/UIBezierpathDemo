@@ -53,8 +53,8 @@
         self.wordColor = kWordColor;
         
         self.penHidden = NO;
-        self.animationPepeatly = YES;
-        self.animationAutoreverses = YES;
+        self.animationPepeatly = NO;
+        self.animationAutoreverses = NO;
         [self.layer addSublayer:self.animationLayer];
     }
     return self;

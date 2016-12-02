@@ -8,6 +8,7 @@
 
 #import "ExampleViewController5.h"
 #import "ProgressView.h"
+#import "ProgressBarView.h"
 
 #define kSelfWidth self.view.bounds.size.width
 #define kSelfHeight self.view.bounds.size.height
@@ -20,6 +21,8 @@
 
 @property (strong, nonatomic)ProgressView *progressView;
 
+@property (strong, nonatomic)ProgressBarView *progressBarView;
+
 @end
 
 @implementation ExampleViewController5
@@ -29,8 +32,10 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    
-    [self.view addSubview:self.progressView];
+
+    [self.view addSubview:self.progressBarView];
+
+//    [self.view addSubview:self.progressView];
     [self.view addSubview:self.segmentedControl];
     [self.view addSubview:self.slider];
 }
@@ -39,7 +44,8 @@
 - (UISegmentedControl *)segmentedControl
 {
     if (!_segmentedControl) {
-        _segmentedControl = [[UISegmentedControl alloc]initWithItems:@[@"横条",@"单圆环",@"双圆环",@"三角形",@"正方形",@"五角星"]];
+//        _segmentedControl = [[UISegmentedControl alloc]initWithItems:@[@"横条",@"单圆环",@"双圆环",@"三角形",@"正方形",@"五角星"]];
+        _segmentedControl = [[UISegmentedControl alloc]initWithItems:@[@"横条",@"圆环"]];
         _segmentedControl.frame = CGRectMake(10, 80, kSelfWidth-20, 40);
         [_segmentedControl addTarget:self action:@selector(selectProgressType:) forControlEvents:UIControlEventValueChanged];;
     }
@@ -64,18 +70,25 @@
     }
     return _progressView;
 }
-
-
-
+- (ProgressBarView *)progressBarView{
+    if (!_progressBarView) {
+        _progressBarView = [[ProgressBarView alloc] initWithFrame:CGRectMake(100, 200, 200, 200) progressBarType:ProgressBarTypeLine];
+        _progressBarView.backgroundColor = [UIColor blackColor];
+    }
+    return _progressBarView;
+}
 - (void)selectProgressType:(UISegmentedControl *)sc
 {
     [_slider setValue:0 animated:YES];
-    self.progressView.progressViewType = (ProgressViewType)sc.selectedSegmentIndex+1;
+//    self.progressView.progressViewType = (ProgressViewType)sc.selectedSegmentIndex+1;
+    self.progressBarView.barType = (ProgressBarType)sc.selectedSegmentIndex;
+
 }
 
 - (void)sliderValueChanged:(UISlider *)slider
 {
-    self.progressView.progress = slider.value;
+//    self.progressView.progress = slider.value;
+    self.progressBarView.progress = slider.value;
 }
 
 
